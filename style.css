@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -95,12 +97,16 @@
     color: #eeeeee;
 }
 
-.right-section-contents {
+.right-section-contents,
+.experience {
     padding: 2rem 2rem;
 }
 
 .right-title {
-    color: #eeeeee;
+    color: #1dcdfe;
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 1.5rem;
 }
 
 .gap {
@@ -109,4 +115,48 @@
 .about-me-contents {
     font-size: 18px;
     color: #eeeeee;
+}
+
+.exp-right {
+    margin-bottom: 50px;
+}
+
+.experience-contents,
+.education-contents,
+.awards-contents {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 2rem;
+    color: #F1F8FD;
+}
+
+.exp-company-name,
+.education-school-name,
+.awards-company-name {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.exp-time-period,
+.educationp-time-period,
+.awards-time-period {
+    font-size: 18px;
+}
+
+.exp-position,
+.exp-company-name {
+    padding-bottom: .6rem;
+}
+
+.exp-position,
+.education-subject,
+.awards-name {
+    font-size: 25px;
+}
+
+.exp-desc,
+.education-desc,
+.awards-desc {
+    font-size: 16px;
+    padding-left: 5px;
 }
