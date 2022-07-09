@@ -98,7 +98,8 @@
 }
 
 .right-section-contents,
-.experience {
+.experience,
+.education {
     padding: 2rem 2rem;
 }
 
@@ -112,12 +113,14 @@
 .gap {
     padding-bottom: 2rem;
 }
+
 .about-me-contents {
     font-size: 18px;
     color: #eeeeee;
 }
 
-.exp-right {
+.exp-right,
+.education-right {
     margin-bottom: 50px;
 }
 
@@ -126,7 +129,6 @@
 .awards-contents {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding-bottom: 2rem;
     color: #F1F8FD;
 }
 
@@ -144,7 +146,9 @@
 }
 
 .exp-position,
-.exp-company-name {
+.exp-company-name,
+.education-subject,
+.education-school-name {
     padding-bottom: .6rem;
 }
 
@@ -158,5 +162,6 @@
 .education-desc,
 .awards-desc {
     font-size: 16px;
-    padding-left: 5px;
+    padding-left: 7px;
+    border-left: 2px solid #1dcdfe;
 }
