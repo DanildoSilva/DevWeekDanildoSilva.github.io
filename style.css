@@ -99,7 +99,8 @@
 
 .right-section-contents,
 .experience,
-.education {
+.education,
+.awards {
     padding: 2rem 2rem;
 }
 
@@ -120,7 +121,8 @@
 }
 
 .exp-right,
-.education-right {
+.education-right,
+.awards-right {
     margin-bottom: 50px;
 }
 
@@ -148,7 +150,9 @@
 .exp-position,
 .exp-company-name,
 .education-subject,
-.education-school-name {
+.education-school-name,
+.awards-name,
+.awards-company-name {
     padding-bottom: .6rem;
 }
 
