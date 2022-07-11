@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,900&display=swap');
-
 * {
     margin: 0;
     padding: 0;
@@ -42,8 +40,7 @@
 .profile .profile-image {
     width: 100%;
     padding: 30px;
-    border-bottom-left-radius: 20%;
-    border-top-right-radius: 20%;
+    border-radius: 0px 60px 0px 60px;
 }
 
 .name {
@@ -64,6 +61,29 @@
     margin-bottom: 30px;
 }
 
+/* Button Style*/
+.btn-style {
+    text-align: center;
+    margin-top: 210px;
+}
+
+.btn-style button {
+    background-color: #2980b9;
+    border: none;
+    padding: 10px 0px;
+}
+
+.btn-style button a {
+    color: #eeeeee;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 60px;
+}
+
+.btn-style button:hover {
+    background-color: #1f628e;
+  }
+
 /* .contact-info { border-bottom: 2px solid #1B2631; } */
 .left-title {
     color: #3498db;
@@ -73,7 +93,11 @@
 }
 
 .contact-info ul {
-    padding: 1rem 0 2rem .6rem;
+    padding: 1rem 0 2rem 1.6rem;
+}
+
+.contact-info ul li {
+    margin-bottom: .8rem;
 }
 
 .contact-info ul li,
@@ -168,4 +192,55 @@
     font-size: 16px;
     padding-left: 7px;
     border-left: 2px solid #1dcdfe;
+}
+
+/*Barras de Progresso*/
+.skills ul li {
+    margin-bottom: 20px;
+}
+
+.skills ul li p {
+    margin-bottom: 5px;
+}
+
+.container {
+    height: 10px;
+    width: 190px;
+    background-color: #eeeeee;
+    position: relative;
+}
+
+.container .progress-bar1{
+   position: absolute;
+   height: 100%;
+   width: 130px;
+   background-color: #2980b9;
+}
+
+.container {
+    height: 10px;
+    width: 190px;
+    background-color: #eeeeee;
+    position: relative;
+}
+
+.container .progress-bar2{
+   position: absolute;
+   height: 100%;
+   width: 70px;
+   background-color: #2980b9;
+}
+
+.container {
+    height: 10px;
+    width: 190px;
+    background-color: #eeeeee;
+    position: relative;
+}
+
+.container .progress-bar3{
+   position: absolute;
+   height: 100%;
+   width: 160px;
+   background-color: #2980b9;
 }
