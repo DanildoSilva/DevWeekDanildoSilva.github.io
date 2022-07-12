@@ -65,11 +65,7 @@
 /* Button Style*/
 .btn-style {
     text-align: center;
-<<<<<<< Updated upstream
-    margin-top: 210px;
-=======
     margin-top: 160px;
->>>>>>> Stashed changes
 }
 
 .btn-style button {
@@ -89,10 +85,6 @@
     background-color: #1f628e;
   }
 
-<<<<<<< Updated upstream
-/* .contact-info { border-bottom: 2px solid #1B2631; } */
-=======
->>>>>>> Stashed changes
 .left-title {
     color: #3498db;
     font-size: 20px;
@@ -236,8 +228,6 @@
     border-left: 2px solid #1dcdfe;
 }
 
-<<<<<<< Updated upstream
-=======
 /* Media queries */
 @media screen and (max-width:780px) {
     .experience-contents,
@@ -271,7 +261,6 @@
     }
 }
 
->>>>>>> Stashed changes
 /*Barras de Progresso*/
 .skills ul li {
     margin-bottom: 20px;
@@ -283,11 +272,7 @@
 
 .container {
     height: 10px;
-<<<<<<< Updated upstream
-    width: 190px;
-=======
     width: 255px;
->>>>>>> Stashed changes
     background-color: #eeeeee;
     position: relative;
 }
@@ -295,38 +280,6 @@
 .container .progress-bar1{
    position: absolute;
    height: 100%;
-<<<<<<< Updated upstream
-   width: 130px;
-   background-color: #2980b9;
-}
-
-.container {
-    height: 10px;
-    width: 190px;
-    background-color: #eeeeee;
-    position: relative;
-}
-
-.container .progress-bar2{
-   position: absolute;
-   height: 100%;
-   width: 70px;
-   background-color: #2980b9;
-}
-
-.container {
-    height: 10px;
-    width: 190px;
-    background-color: #eeeeee;
-    position: relative;
-}
-
-.container .progress-bar3{
-   position: absolute;
-   height: 100%;
-   width: 160px;
-   background-color: #2980b9;
-=======
    width: 200px;
    background-color: #2980b9;
 }
@@ -343,5 +296,4 @@
    height: 100%;
    width: 220px;
    background-color: #2980b9;
->>>>>>> Stashed changes
 }
