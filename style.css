@@ -58,13 +58,14 @@
     font-size: 18px;
     text-transform: uppercase;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
+    font-weight: 700;
 }
 
 /* Button Style*/
 .btn-style {
     text-align: center;
-    margin-top: 210px;
+    margin-top: 160px;
 }
 
 .btn-style button {
@@ -84,12 +85,21 @@
     background-color: #1f628e;
   }
 
-/* .contact-info { border-bottom: 2px solid #1B2631; } */
 .left-title {
     color: #3498db;
     font-size: 20px;
     font-weight: 700;
     padding-left: 1.5rem;
+}
+
+.left-title {
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    padding-top: 3rem;
 }
 
 .contact-info ul {
@@ -103,7 +113,11 @@
 .contact-info ul li,
 .references ul li {
     padding: .4rem 0;
+    display: flex;
+    align-items: center;
     color: #eeeeee;
+    letter-spacing: 1px;
+    font-size: 18px;
 }
 
 .contact-info ul li i,
@@ -113,12 +127,26 @@
     color: #eeeeee;
 }
 
-.skills ul {
-    padding: 1rem 0 2rem 1.5rem;
+.skills p {
+    padding-bottom: .5rem;
 }
+
+.skills ul {
+    padding: 1rem 0 .3rem 1.5rem;
+}
+
+.skills ul li {
+    padding-bottom: .5rem;
+}
+
 .skills ul li p {
-    padding: .4rem 0;
     color: #eeeeee;
+    font-size: 18px;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    padding-bottom: .3rem;
 }
 
 .right-section-contents,
@@ -126,6 +154,10 @@
 .education,
 .awards {
     padding: 2rem 2rem;
+}
+
+.left-title {
+    text-transform: uppercase;
 }
 
 .right-title {
@@ -141,6 +173,8 @@
 
 .about-me-contents {
     font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 2rem;
     color: #eeeeee;
 }
 
@@ -194,6 +228,39 @@
     border-left: 2px solid #1dcdfe;
 }
 
+/* Media queries */
+@media screen and (max-width:780px) {
+    .experience-contents,
+    .education-contents,
+    .awards-contents {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and (max-width:780px) {
+    .left-section {
+        grid-column: span 3;
+    }
+    
+    .right-section {
+        grid-column: span 4;
+    }
+    
+}
+
+@media screen and (max-width:1200px) {
+    .resume-contents {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and (max-width:390px) {
+    .resume-contents {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
 /*Barras de Progresso*/
 .skills ul li {
     margin-bottom: 20px;
@@ -205,7 +272,7 @@
 
 .container {
     height: 10px;
-    width: 190px;
+    width: 255px;
     background-color: #eeeeee;
     position: relative;
 }
@@ -213,34 +280,20 @@
 .container .progress-bar1{
    position: absolute;
    height: 100%;
-   width: 130px;
+   width: 200px;
    background-color: #2980b9;
-}
-
-.container {
-    height: 10px;
-    width: 190px;
-    background-color: #eeeeee;
-    position: relative;
 }
 
 .container .progress-bar2{
    position: absolute;
    height: 100%;
-   width: 70px;
+   width: 160px;
    background-color: #2980b9;
 }
 
-.container {
-    height: 10px;
-    width: 190px;
-    background-color: #eeeeee;
-    position: relative;
-}
-
-.container .progress-bar3{
+.container .progress-bar3 {
    position: absolute;
    height: 100%;
-   width: 160px;
+   width: 220px;
    background-color: #2980b9;
 }
