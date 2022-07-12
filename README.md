@@ -1,2 +1,2 @@
 # DevWeekDanildoSilva.github.io
-Curriculo Dev Week
+Currículo da Jornada Dev
